@@ -45,9 +45,9 @@ const App = () => {
   };
 
   return (
-    <div className="flex items-center justify-center min-h-screen bg-gray-100 p-4">
+    <div className="flex items-center justify-center h-screen bg-gray-100 p-4">
       <div className="w-full max-w-4xl bg-white rounded-lg shadow-lg">
-        <div className="h-[500px] md:h-[600px] lg:h-[700px] flex flex-col w-full p-4 overflow-y-auto">
+        <div className="h-[400px] md:h-[600px] lg:h-[80vh] flex flex-col w-full p-4 overflow-y-auto">
           {message.map((message, index) => (
             <div
               key={index}
